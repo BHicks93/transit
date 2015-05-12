@@ -77,9 +77,8 @@ body{
 }
 #names{
 	position: absolute;
-	top: 150px;
-	right: -160px;
-	transform: rotate(90deg);
+	top: 0px;
+	right: 0px;
 }
 #description{
 	position: absolute;
@@ -90,38 +89,14 @@ body{
 	font-size: 16px;
 	max-width: 250px;
 }
-#helmetsText{
-	position: absolute;
-	top: 0;
-	left: 200px;
-}
-#bikesText{
-	position: absolute;
-	top: 0;
-	left: 250px;
-}
-#wheelsText{
-	position: absolute;
-	top: 0;
-	left: 500px;
-}
-#cleatsText{
-	position: absolute;
-	top: 0;
-	left: 700px;
-}
-#extrasText{
-	position: absolute;
-	top: 0;
-	left: 980px;
-}
 img{
 	width: 200px; 
 	float: left;
+	display: none;
 }
-#wheel1{
+.wheel{
 	position: absolute;
-	top:60px;
+	top:0;
 	left:600px;
 }
 #cinelli{
@@ -144,12 +119,12 @@ img{
 	top:630px;
 	left:1080px;
 }
+.bob {
+  top:50px;
+}
 .bob:hover {
   color:#000;
   cursor: pointer;
-}
-.hidden{
-	display: none;
 }
 .visible{
 	display: block;

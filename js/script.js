@@ -1,8 +1,9 @@
 $(document).ready(function(){
 
 	console.log("Hi there buddy");
-	
-	$('.wheel').jGravity()
+
+	//jGravity
+	$('body').jGravity()
 	
 	//click events on sections
 	$('#bikesText, #wheelsText, #cleatsText, #helmetsText, #extrasText').click( function() {
@@ -25,9 +26,9 @@ $(document).ready(function(){
 	});
 
 	//description in and out
-	$('#names').mouseover( function() {
-		$('#description').addClass('visible animated lightSpeedIn');
-	});
+	//$('#names').mouseover( function() {
+	//	$('#description').addClass('visible animated lightSpeedIn');
+	//});
 	//$('#names').mouseout( function() {
 	//	$('#description').addClass('hidden animated lightSpeedOut');
 	//});
@@ -37,9 +38,4 @@ $(document).ready(function(){
     	$( "img" ).draggable();
   	});
 	console.log("draggable working");
- 	
- 	//jGravity
- 	
-        
-
 });
