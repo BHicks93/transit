@@ -72,7 +72,7 @@ body{
 }
 #address{
 	position: absolute;
-	bottom: 0;
+	top: 0;
 	left: 0;
 }
 #names{
@@ -92,27 +92,27 @@ body{
 }
 #helmetsText{
 	position: absolute;
-	top: 150px;
+	top: 0;
 	left: 200px;
 }
 #bikesText{
 	position: absolute;
-	top: 450px;
+	top: 0;
 	left: 250px;
 }
 #wheelsText{
 	position: absolute;
-	top: 50px;
+	top: 0;
 	left: 500px;
 }
 #cleatsText{
 	position: absolute;
-	top: 300px;
+	top: 0;
 	left: 700px;
 }
 #extrasText{
 	position: absolute;
-	top: 630px;
+	top: 0;
 	left: 980px;
 }
 img{

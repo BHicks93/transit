@@ -2,6 +2,8 @@ $(document).ready(function(){
 
 	console.log("Hi there buddy");
 	
+	$('.wheel').jGravity()
+	
 	//click events on sections
 	$('#bikesText, #wheelsText, #cleatsText, #helmetsText, #extrasText').click( function() {
 		$(this).addClass('animated zoomOut');
@@ -37,8 +39,7 @@ $(document).ready(function(){
 	console.log("draggable working");
  	
  	//jGravity
- 	$('#address').click( function() {
-        $('.wheel').jGravity()
-    });
+ 	
+        
 
 });
