@@ -40,47 +40,5 @@ $(document).ready(function(){
  	$('#address').click( function() {
         $('.wheel').jGravity()
     });
-/*
-	var isoOptions = {
-	  masonry: {
-	    columnWidth: 50
-	  }
-	};
-	var $container = $('.isotope').isotope( isoOptions );
-	// init
-	$container.isotope({
-	  // options
-	  itemSelector: '.item',
-	  layoutMode: 'fitRows',
-	});
-	
-	$('#filters').on( 'click', 'li', function() {
-	  var filterValue = $(this).attr('data-filter');
-	  $container.isotope({ filter: filterValue });
-	});
-	console.log("end filters");
 
-	$('#shuffle').on( 'click', function() {
-	    $container.isotope('shuffle');
-	  });
-
-	//toggleClass to show menu with animation
-	function menuOpening(){
-		$(".menu").animate({
-			""
-		}, 100);
-	});
-	$( ".logo" ).mouseover(function() {
-	  $( ".hiddenMenu" ).toggleClass( "visibleMenu" );
-	});
-	$( ".logo .hiddenMenu" ).mouseout(function() {
-	  $( ".visibleMenu" ).toggleClass( "hiddenMenu" );
-	});
-	$(".logo").mouseover(function() {
-	  if ( $( ".menu" ).is( ":hidden" ) ) {
-	    $( ".menu" ).show( "slow" );
-	  } else {
-	    $( ".menu" ).slideUp();
-	  }
-	});*/
 });
