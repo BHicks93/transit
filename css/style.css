@@ -52,7 +52,7 @@ table {
  */
 
 body{
-	color:#FF82AB;
+	color:#fb5a6c;
 	font-family: sans-serif;
   	overflow: hidden;
   	background: #ddd url("../img/jules.jpg") no-repeat center;
@@ -61,8 +61,10 @@ img{
 	position: absolute;
 	top: -210px;
 	left: 500px;
-	width: 150px; 
-	float: left;
+	width: 150px;
+}
+#pump{
+	width: 75px;
 }
 #container{
 	position: absolute;
